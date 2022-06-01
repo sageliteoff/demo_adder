@@ -1,0 +1,32 @@
+input {
+  font-size: 16px;
+}
+body {
+  background-color: #f8f9fa !important;
+}
+
+.circle {
+  height: 300px;
+  width: 300px;
+  right: 0;
+  bottom: 1;
+  z-index: -1;
+  position: absolute;
+  clip-path: circle(150px at 100% 100%);
+  background-color: rgba(25, 135, 84, 0.517);
+}
+
+.container {
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
