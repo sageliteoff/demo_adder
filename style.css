@@ -3,6 +3,7 @@ input {
 }
 body {
   background-color: #f8f9fa !important;
+  height: 100vh;
 }
 
 .circle {
